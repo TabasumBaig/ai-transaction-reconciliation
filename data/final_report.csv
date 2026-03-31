@@ -1,0 +1,11 @@
+id,amount_txn,amount_bank,date_txn,date_bank,issue,explanation
+4,,100.0,,2024-01-16,Duplicate Entry,Same transaction recorded multiple times
+4,,100.0,,2024-01-16,Duplicate Entry,Same transaction recorded multiple times
+1,100.0,100.0,2024-01-01,2024-01-02,Matched,Transaction and settlement match correctly
+2,200.0,200.0,2024-01-01,2024-01-02,Matched,Transaction and settlement match correctly
+5,500.0,,2024-01-20,,Missing Settlement,Transaction exists but not settled in bank
+6,-150.0,,2024-01-25,,Missing Settlement,Transaction exists but not settled in bank
+7,,-150.0,,2024-01-26,Missing Transaction,Settlement exists without original transaction
+4,100.005,100.0,2024-01-15,2024-01-16,Rounding Difference,Minor difference due to rounding
+4,100.005,100.0,2024-01-15,2024-01-16,Rounding Difference,Minor difference due to rounding
+3,300.0,300.0,2024-01-31,2024-02-01,Settled Next Month,Settlement recorded in next month (timing delay)
